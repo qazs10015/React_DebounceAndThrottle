@@ -4,7 +4,7 @@ Try to implement Debounce and Throttle feature
 
 ## Debounce
 
-I use ChatGPT to generate 500 data and store it as json file.
+I use ChatGPT to generate 500 datas and store it as json file.
 You can type simple word like "a" and wait it for 3 seconds, it will show you result.
 
 <img width="352" alt="image" src="https://github.com/user-attachments/assets/8b6821b3-a544-4983-82e8-c9d9b2ef014d">
