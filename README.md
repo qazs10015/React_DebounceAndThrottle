@@ -1,50 +1,16 @@
-# React + TypeScript + Vite
+# React Debounce and Throttle
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Try to implement Debounce and Throttle feature
 
-Currently, two official plugins are available:
+## Debounce
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+I use ChatGPT to generate 500 data and store it as json file.
+You can type simple word like "a" and wait it for 3 seconds, it will show you result.
 
-## Expanding the ESLint configuration
+<img width="352" alt="image" src="https://github.com/user-attachments/assets/8b6821b3-a544-4983-82e8-c9d9b2ef014d">
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Throttle
 
-- Configure the top-level `parserOptions` property like this:
+You can open DevTool then resize the window and wait it for 3 seconds to see the result.
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
-
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
-
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
-
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+<img width="1188" alt="image" src="https://github.com/user-attachments/assets/1699c3ea-4e57-4496-94ee-ee82f1bc8853">
